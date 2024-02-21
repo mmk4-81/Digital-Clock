@@ -19,6 +19,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+
 }
 .clock{
     width: 100%;
@@ -28,6 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    backdrop-filter: blur(40px);
 }
 .container::before{
     content: '';
